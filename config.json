@@ -1,0 +1,8 @@
+{
+    "db_host": "localhost",
+    "db_port": 5432,
+    "db_name": "fastapi_users",
+    "db_user": "postgres",
+    "db_password": "Aliawan0i%40",
+    "weather_api_key": "409a395768b5d4a4d4e8cc0333650402"
+}
