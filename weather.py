@@ -1,15 +1,14 @@
 from fastapi import APIRouter, HTTPException
 import requests
-import json
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 router = APIRouter()
-
-with open("config.json") as f:
-    config = json.load(f)
 
 @router.get("/weather")
 def get_weather(city: str):
-    api_key = config["weather_api_key"]
+    api_key = os.getenv("WEATHER_API_KEY")
     url = f"http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric"
     
     response = requests.get(url)
