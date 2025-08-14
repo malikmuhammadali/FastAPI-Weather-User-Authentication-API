@@ -53,7 +53,7 @@ WEATHER_API_KEY=YourOpenWeatherMapAPIKey
 ```bash
 python create_tables.py
 ```
-![weather-response](images/1.PNG)
+![weather-response](Screenshot (141).png)
 
 ### 4. Run FastAPI Server
 ```bash
