@@ -5,7 +5,7 @@ This project is built using **FastAPI** and provides user authentication with JW
 It is designed to be simple, secure, and easy to extend.
 
 ### Features
-- **User Signup:** `POST /signup` → Register a new user  
+- **User Signup:** `POST /signup` → Register a new user  .
 - **User Login:** `POST /login` → Login a user and get JWT token  
 - **Weather Forecast:** `GET /weather?city=CityName` → Get a 7-day weather forecast for any city  
 - **Root Endpoint:** `GET /` → Welcome message  
