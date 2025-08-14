@@ -55,6 +55,8 @@ python create_tables.py
 ```
 ![weather-response](images/10.png)
 
+
+
 ### 4. Run FastAPI Server
 ```bash
 uvicorn main:app --reload
@@ -84,6 +86,16 @@ curl -X GET "http://127.0.0.1:8000/weather?city=Lahore"
 ```sql
 SELECT * FROM users;
 ```
+### 5. Output Response
+![weather-response](images/1.png)
+![weather-response](images/2.png)
+![weather-response](images/3.png)
+![weather-response](images/4.png)
+![weather-response](images/5.png)
+![weather-response](images/6.png)
+![weather-response](images/7.png)
+![weather-response](images/8.png)
+![weather-response](images/9.png)
 
 ---
 
